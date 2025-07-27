@@ -1,8 +1,10 @@
 @font-face {
   font-family: 'flaticon-finance';
-    url('../fonts/flaticon-finance.ttf?a9q007') format('truetype'),
-    url('../fonts/flaticon-finance.woff?a9q007') format('woff'),
-    url('../fonts/flaticon-finance.svg?a9q007#flaticon-finance') format('svg');
+  src:  url('../fonts/flaticon-finance.eot?a9q007');
+  src:  url('../fonts/flaticon-finance.eot?a9q007#iefix') format('embedded-opentype'),
+  url('../fonts/flaticon-finance.ttf?a9q007') format('truetype'),
+  url('../fonts/flaticon-finance.woff?a9q007') format('woff'),
+  url('../fonts/flaticon-finance.svg?a9q007#flaticon-finance') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
