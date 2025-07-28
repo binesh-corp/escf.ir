@@ -88,17 +88,17 @@ License: copyright commercial
     --headings-color: #0B3130;
     --link-color: #0B3130;
     --link-hover-color: #C8F169;
-    --body-font-family: "Poppins", sans-serif;
-    --heading-font-family: "DM Sans", sans-serif;
-    --style-font: "Manrope", sans-serif;
+    --body-font-family: "Yekan Bakh FaNum";
+    --heading-font-family: "Yekan Bakh FaNum";
+    --style-font: "Yekan Bakh FaNum";
     --body-font-size: 16px;
     --body-line-height: 1.9;
     --body-font-weight: 400;
     --line-height-heading-h1: 1em;
     --line-height-heading: 1.2em;
     --line-height-heading-small: 1.4em;
-    --h1-font-size: 80px;
-    --h2-font-size: 56px;
+    --h1-font-size: 55px;
+    --h2-font-size: 35px;
     --h3-font-size: 24px;
     --h4-font-size: 20px;
     --h5-font-size: 18px;
@@ -183,6 +183,7 @@ body {
     font-family: var(--body-font-family);
     font-weight: var(--body-font-weight);
     line-height: var(--body-line-height);
+    font-feature-settings: "kern" on, "liga" on, "dlig" on;
 }
 
 p, .text {
@@ -371,7 +372,7 @@ section > .container-fluid {
 
 /*=== Default Form ===*/
 .form-control, .input-text {
-    height: calc(2.25rem + 27px);
+    height: calc(2.25rem);
     padding: 14px 30px;
     outline: 0;
     background-color: #f4f5f8;
